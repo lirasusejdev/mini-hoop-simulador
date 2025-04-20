@@ -24,10 +24,10 @@ Este projeto utiliza **Docker** e **Flask** para simular múltiplas instâncias 
 
 ## 📦 Subindo o projeto
 
-1. Clone o repositório:
+1. Clone o repositório com SSH:
 
 ```bash
-git clone https://github.com/seu-usuario/mini-hoop-simulador.git
+git@github.com:lirasusejdev/mini-hoop-simulador.git
 cd mini-hoop-simulador
 ```
 
