@@ -6,6 +6,18 @@ Este projeto utiliza **Docker** e **Flask** para simular múltiplas instâncias 
 
 ---
 
+Infelizmente, não dá para instalar o Hoop de forma independente para estudos locais — o Hoop é uma ferramenta corporativa fechada, desenvolvida pela Trybe (ou usada por ela e outras empresas), e depende de uma infraestrutura de autenticação e permissões conectada à conta da empresa (como AWS, Okta, Vault etc).
+
+🧩 Por que não dá pra usar em casa?
+
+Ele é feito para ambientes controlados (produção/staging de empresas)
+
+Depende de acesso a contas AWS, instâncias, secrets e vaults
+
+Usa um cliente autenticador vinculado à empresa (por ex: SSO corporativo)
+
+
+
 ## 🚀 Tecnologias
 
 - Docker
