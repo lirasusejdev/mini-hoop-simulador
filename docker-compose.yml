@@ -1,0 +1,18 @@
+version: '3.8'
+
+services:
+  inst1:
+    build: ./app
+    container_name: hoop_inst1
+    environment:
+      - INSTANCE_NAME=instancia-1
+    ports:
+      - "5001:5000"
+  
+  inst2:
+    build: ./app
+    container_name: hoop_inst2
+    environment:
+      - INSTANCE_NAME=instancia-2
+    ports:
+      - "5002:5000"
